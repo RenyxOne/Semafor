@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Semafor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Semafor_jar</output-path>
+    <root id="archive" name="Semafor.jar">
+      <element id="module-output" name="Semafor" />
+    </root>
+  </artifact>
+</component>

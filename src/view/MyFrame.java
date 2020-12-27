@@ -25,9 +25,9 @@ public class MyFrame extends JFrame {
         ss = s;
         JToolBar bar = new JToolBar();
         add(bar, BorderLayout.NORTH);
-        JMenuItem start = new JMenuItem(new ImageIcon("start.png"));
-        JMenuItem stop = new JMenuItem(new ImageIcon("stop.png"));
-        JMenuItem continue1 = new JMenuItem(new ImageIcon("continue.png"));
+        JMenuItem start = new JMenuItem(new ImageIcon(getClass().getResource("images/start.png")));
+        JMenuItem stop = new JMenuItem(new ImageIcon(getClass().getResource("images/stop.png")));
+        JMenuItem continue1 = new JMenuItem(new ImageIcon(getClass().getResource("images/continue.png")));
         stop.setEnabled(false);
         continue1.setEnabled(false);
         start.setEnabled(true);
